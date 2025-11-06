@@ -24,7 +24,6 @@ int main()
             rt[i].from[j] = j;
         }
 
-    // Distance Vector Algorithm
     do
     {
         count = 0;
@@ -39,7 +38,6 @@ int main()
                     }
     } while (count != 0);
 
-    // Display routing table
     for (i = 0; i < n; i++)
     {
         printf("\n\nState value for router %d is:\n", i + 1);
